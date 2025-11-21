@@ -121,19 +121,6 @@ print(result['fairness_metrics'])  # Fairness analysis
 - **Examples**: [examples/backend_integration.py](examples/backend_integration.py) - Integration examples
 - **Quick Start**: [QUICK_START.md](QUICK_START.md) - 5-minute tutorial
 
-## Citation
-
-If you use AgorAI in your research, please cite:
-
-```bibtex
-@software{agorai2025,
-  title = {AgorAI: Democratic AI Through Multi-Agent Aggregation},
-  author = {Schlenker, Samuel},
-  year = {2025},
-  url = {https://github.com/agorai/agorai}
-}
-```
-
 ## License
 
 **Research and Non-Commercial License**
