@@ -1,0 +1,82 @@
+{
+  "name": "content_moderation_daily_batch",
+  "description": "Daily content moderation decisions from production system",
+  "items": [
+    {
+      "id": "mod_20251124_001",
+      "utilities": [
+        [0.9, 0.1, 0.3],
+        [0.2, 0.8, 0.6],
+        [0.4, 0.7, 0.8]
+      ],
+      "metadata": {
+        "content_type": "text",
+        "reported_by": 12,
+        "timestamp": "2025-11-24T08:15:00Z"
+      }
+    },
+    {
+      "id": "mod_20251124_002",
+      "utilities": [
+        [0.7, 0.3, 0.5],
+        [0.6, 0.4, 0.5],
+        [0.8, 0.2, 0.6]
+      ],
+      "ground_truth": 0,
+      "metadata": {
+        "content_type": "image",
+        "reported_by": 8,
+        "timestamp": "2025-11-24T09:22:00Z"
+      }
+    },
+    {
+      "id": "mod_20251124_003",
+      "utilities": [
+        [0.3, 0.7, 0.5],
+        [0.2, 0.8, 0.6],
+        [0.4, 0.6, 0.7]
+      ],
+      "ground_truth": 1,
+      "metadata": {
+        "content_type": "video",
+        "reported_by": 25,
+        "timestamp": "2025-11-24T10:45:00Z"
+      }
+    },
+    {
+      "id": "mod_20251124_004",
+      "utilities": [
+        [0.5, 0.5, 0.5],
+        [0.6, 0.4, 0.5],
+        [0.4, 0.6, 0.5]
+      ],
+      "metadata": {
+        "content_type": "text",
+        "reported_by": 3,
+        "timestamp": "2025-11-24T11:30:00Z"
+      }
+    },
+    {
+      "id": "mod_20251124_005",
+      "utilities": [
+        [0.9, 0.1, 0.2],
+        [0.1, 0.9, 0.3],
+        [0.2, 0.8, 0.7]
+      ],
+      "ground_truth": 1,
+      "metadata": {
+        "content_type": "text",
+        "reported_by": 18,
+        "timestamp": "2025-11-24T13:15:00Z"
+      }
+    }
+  ],
+  "metadata": {
+    "date": "2025-11-24",
+    "source": "production",
+    "num_candidates": 3,
+    "candidate_labels": ["Approve", "Reject", "Escalate"],
+    "num_agents": 3,
+    "agent_labels": ["Western Moderator", "Eastern Moderator", "Global South Moderator"]
+  }
+}
