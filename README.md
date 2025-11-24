@@ -209,18 +209,20 @@ print(explanation)
 ## 📚 Documentation
 
 ### Getting Started
-- **[Quick Start](QUICK_START.md)** - 5-minute tutorial
-- **[Examples](examples/)** - Jupyter notebooks and code examples
+- **[Documentation Index](docs/README.md)** - Complete documentation overview
+- **[Configuration Guide](docs/configuration.md)** - Installation and setup
+- **[Examples](examples/)** - Code examples and sample data
+- **[Jupyter Notebooks](notebooks/)** - Interactive tutorials
 
-### API Reference
-- **[Aggregation API](docs/aggregate.md)** - Complete aggregation methods documentation
-- **[Benchmarking Guide](docs/benchmarks.md)** - Evaluation framework (coming soon)
-- **[Visualization Guide](docs/visualization.md)** - Plotting and explanations (coming soon)
+### User Guides
+- **[Aggregation API](docs/aggregate.md)** - All 14+ aggregation methods
+- **[Queue Processing](docs/queue.md)** - Batch processing from files
+- **[Visualization](docs/visualization.md)** - Plots and natural language explanations
 
-### Integration & Migration
-- **[Backend Compatibility](BACKEND_COMPATIBILITY.md)** - Migrate from local package
-- **[PyPI Upload Guide](PYPI_UPLOAD_GUIDE.md)** - Publishing instructions
-- **[Integration Examples](examples/backend_integration.py)** - Backend integration
+### Developer Guides
+- **[Extending AgorAI](docs/extending.md)** - Add custom methods, configure LLMs, integrate with your stack
+- **[Configuration](docs/configuration.md)** - Environment setup, API keys, production config
+- **[Backend Compatibility](BACKEND_COMPATIBILITY.md)** - Migration guide
 
 ## 🔬 Research & Papers
 
