@@ -24,24 +24,40 @@ AgorAI is a Python library for building fair, unbiased AI systems through democr
 
 ## 📦 Installation
 
+### From PyPI (when published)
+
 ```bash
 # Minimal installation (aggregation only)
 pip install agorai
 
-# With research features (queue processing, visualization)
-pip install agorai[research]
-
 # With LLM synthesis support
-pip install agorai[synthesis]
+pip install 'agorai[synthesis]'
 
 # With bias mitigation support
-pip install agorai[bias]
+pip install 'agorai[bias]'
 
 # Full installation (all features)
-pip install agorai[all]
+pip install 'agorai[all]'
+```
+
+**Note for zsh users:** Always quote the brackets to prevent shell globbing: `'agorai[all]'`
+
+### Local Development
+
+```bash
+# Clone and install in editable mode
+cd path/to/agorai-package
+
+# Minimal installation
+pip install -e .
+
+# With optional dependencies
+pip install -e '.[synthesis]'
+pip install -e '.[bias]'
+pip install -e '.[all]'
 
 # For development
-pip install -e ".[dev]"
+pip install -e '.[dev]'
 ```
 
 ## Quick Start
